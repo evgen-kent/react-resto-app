@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Error = () => {
-    return <div className="error">Error</div>
+const Error = ({ statusErr }) => {
+    console.log(statusErr)
+    return <div className="error">{`Error matherfuck?? ${statusErr}`}</div>
 }
 
 export default Error;
